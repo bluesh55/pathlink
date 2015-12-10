@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/bluesh55/pathlink/issues"
   },
-  "homepage": "https://github.com/bluesh55/pathlink#readme"
+  "homepage": "https://github.com/bluesh55/pathlink#readme",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  }
 }
