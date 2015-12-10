@@ -1,0 +1,19 @@
+{
+  "name": "pathlink",
+  "version": "1.0.0",
+  "description": "javascript URL managing library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluesh55/pathlink.git"
+  },
+  "author": "bluesh55 <bluesh55@naver.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bluesh55/pathlink/issues"
+  },
+  "homepage": "https://github.com/bluesh55/pathlink#readme"
+}
