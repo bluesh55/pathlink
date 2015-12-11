@@ -30,16 +30,23 @@ module.exports = {
 
     for(i = 0; i < queryKeys.length; i++) {
       var key = queryKeys[i];
+      var val = query[key];
 
-      if(i == 0)
-        queries += "?";
+      if(val !== null && val !== undefined) {
+        if(val instanceof Array) {
+        } else if(val instanceof Object) {
+        } else {
+          if(i == 0)
+            queries += "?";
 
-      queries += key;
-      queries += "=";
-      queries += query[key];
+          queries += key;
+          queries += "=";
+          queries += val;
 
-      if(i != queryKeys.length - 1) {
-        queries += "&";
+          if(i != queryKeys.length - 1) {
+            queries += "&";
+          }
+        }
       }
     }
 
