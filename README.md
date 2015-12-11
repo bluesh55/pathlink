@@ -26,4 +26,5 @@ pathlink.get('home'); => "/"
 pathlink.get('post', {id: 3}); => "/posts/3"
 pathlink.get('comment', {post_id: 3, comment_id: 5}); => "/posts/3/comments/5"
 pathlink.get('posts', null, {post_id: 5}); => "/posts?post_id=5"
+pathlink.get('posts', null, {post_id: null}); => "/posts"
 ```
